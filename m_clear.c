@@ -6,13 +6,13 @@
 /*   By: albaud <albaud@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/15 21:06:47 by albaud            #+#    #+#             */
-/*   Updated: 2023/02/15 21:08:01 by albaud           ###   ########.fr       */
+/*   Updated: 2023/09/26 15:34:47 by albaud           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "mlib.h"
 
-void	m_clear(t_mtx *a, int num)
+void	m_clear(t_m *a, int num)
 {
 	int		x;
 	int		y;

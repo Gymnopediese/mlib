@@ -1,7 +1,7 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   t_mtx.h                                            :+:      :+:    :+:   */
+/*   t_m.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: albaud <albaud@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
@@ -10,16 +10,16 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef T_MTX_H
+#ifndef T_M_H
 
-# define T_MTX_H
+# define T_M_H
 
-# include "vlib/vlib.h"
+# include "../vlib/t_v.h"
 
-typedef struct s_mtx
+typedef struct s_m
 {
 	t_v	*arr;
 	int	size;
-}	t_mtx;
+}	t_m;
 
 #endif

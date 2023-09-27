@@ -6,13 +6,13 @@
 /*   By: albaud <albaud@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/15 21:09:38 by albaud            #+#    #+#             */
-/*   Updated: 2023/02/15 21:10:52 by albaud           ###   ########.fr       */
+/*   Updated: 2023/09/26 15:34:47 by albaud           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "mlib.h"
 
-void	m_subs(t_mtx *a, t_mtx *b, t_mtx *res)
+void	m_subs(t_m *a, t_m *b, t_m *res)
 {
 	int		x;
 	int		y;
