@@ -6,13 +6,13 @@
 /*   By: albaud <albaud@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/15 21:08:41 by albaud            #+#    #+#             */
-/*   Updated: 2023/09/26 15:34:47 by albaud           ###   ########.fr       */
+/*   Updated: 2023/10/24 12:52:54 by albaud           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "mlib.h"
 
-double	m_max(t_m *a)
+double	m_max(const t_m *a)
 {
 	int		x;
 	int		y;
@@ -32,7 +32,7 @@ double	m_max(t_m *a)
 	return (max);
 }
 
-void	m_mult(t_m *a, t_m *b, t_m *res)
+void	m_mult(const t_m *a, const t_m *b, t_m *res)
 {
 	int		x;
 	int		y;
