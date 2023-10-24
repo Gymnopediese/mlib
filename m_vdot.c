@@ -6,13 +6,13 @@
 /*   By: albaud <albaud@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/17 12:05:10 by albaud            #+#    #+#             */
-/*   Updated: 2023/09/26 15:34:47 by albaud           ###   ########.fr       */
+/*   Updated: 2023/10/24 12:35:32 by albaud           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "mlib.h"
 
-void	m_vvdot(t_m *a, t_v *b, t_v *res)
+void	m_vvdot(const t_m *a, const t_v *b, t_v *res)
 {
 	int		x;
 
@@ -21,7 +21,7 @@ void	m_vvdot(t_m *a, t_v *b, t_v *res)
 		res->arr[x] = v_dot(&a->arr[x], b);
 }
 
-void	m_hvdot(t_m *a, t_v *b, t_v *res)
+void	m_hvdot(const t_m *a, const t_v *b, t_v *res)
 {
 	int		x;
 	int		y;

@@ -6,13 +6,13 @@
 /*   By: albaud <albaud@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/15 22:15:33 by albaud            #+#    #+#             */
-/*   Updated: 2023/09/26 15:58:07 by albaud           ###   ########.fr       */
+/*   Updated: 2023/10/24 12:36:11 by albaud           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "mlib.h"
 
-t_m	m_rand(int x, int y, int min, int max)
+t_m	m_rand(int x, int y, double min, double max)
 {
 	t_m	res;
 
