@@ -6,14 +6,14 @@
 /*   By: albaud <albaud@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/14 10:26:23 by albaud            #+#    #+#             */
-/*   Updated: 2023/10/24 12:52:37 by albaud           ###   ########.fr       */
+/*   Updated: 2023/10/25 11:35:22 by albaud           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "mlib.h"
 #include "mlib.h"
 
-void	ia_dot_matrix_fuck_off(const t_m *a, const t_m *b, t_m *res)
+void	ann_dot_matrix_fuck_off(const t_m *a, const t_m *b, t_m *res)
 {
 	int		x;
 	int		y;
@@ -34,7 +34,7 @@ void	ia_dot_matrix_fuck_off(const t_m *a, const t_m *b, t_m *res)
 	}
 }
 
-void	ia_dot_matrix_fuck(const t_m *a, const t_m *b, t_m *res)
+void	ann_dot_matrix_fuck(const t_m *a, const t_m *b, t_m *res)
 {
 	int		x;
 	int		y;
@@ -65,9 +65,9 @@ void	m_dot(const t_m *a, const t_m *b, t_m *res)
 	if (b->size != a->arr[0].size)
 	{
 		if (b->size == a->size)
-			ia_dot_matrix_fuck_off(a, b, res);
+			ann_dot_matrix_fuck_off(a, b, res);
 		else
-			ia_dot_matrix_fuck(a, b, res);
+			ann_dot_matrix_fuck(a, b, res);
 		return ;
 	}
 	x = -1;
